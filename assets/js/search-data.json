@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Hello World",
-            "content": "About on Hello World . This notebook is a demonstration of some of capabilities notebooks. . print(&quot;Hello World Delsurone&quot;) . Hello World Delsurone .",
+            "content": "How to print Hello . This notebook shows how to print Hello. . print(&quot;Hello&quot;) . Hello .",
             "url": "https://hs61999.github.io/delsurone/jupyter/2022/08/21/test.html",
             "relUrl": "/jupyter/2022/08/21/test.html",
             "date": " • Aug 21, 2022"
@@ -13,10 +13,10 @@
   
     
         ,"post1": {
-            "title": "Delsurone MD",
-            "content": "Delsurone Markdown Post . Delsurone setup . Images . .",
-            "url": "https://hs61999.github.io/delsurone/markdown/2022/08/21/test-markdown-post.html",
-            "relUrl": "/markdown/2022/08/21/test-markdown-post.html",
+            "title": "Markdown page",
+            "content": "Markdown Posts . Add Text here . Add Images here .",
+            "url": "https://hs61999.github.io/delsurone/2022/08/21/test-markdown-post.html",
+            "relUrl": "/2022/08/21/test-markdown-post.html",
             "date": " • Aug 21, 2022"
         }
         
