@@ -1,16 +1,16 @@
 ---
 toc: true
 layout: post
-description: posts
-title: Markdown page
+description: my posts are here
+title: Posts
 ---
-# Markdown Posts
+# Delsurone Posts
 
-## Add Text here
+## Links
 - [Personal pages](https://hs61999.github.io/delsurone/)
 - [Markdown pages](https://hs61999.github.io/delsurone/2022/08/21/test-markdown-post.html)
 - [Jupyter notebook pages](https://hs61999.github.io/delsurone/jupyter/2022/08/21/test.html)
 
-## Add Images here
+## Images
 
 ![]({{site.baseurl}}/images/Delsurone.PNG)
