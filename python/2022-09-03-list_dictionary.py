@@ -64,5 +64,63 @@ def recursive_loop(i):
         recursive_loop(i + 1)
     return
     
-print("Recursive loop output\n")
-recursive_loop(0)
+#print("Recursive loop output\n")
+#recursive_loop(0)
+
+###############################################################################
+# Try to do a for loop with an index
+def for_loop2():
+    print("For loop output\n")
+    for idx in range(len(InfoDb)):
+        print_data(InfoDb[idx])
+
+#for_loop2()
+
+###############################################################################
+# Would it be possible to output data in a reverse order?
+def for_loop3():
+    print("For loop output\n")
+    for idx in range(len(InfoDb) - 1, -1, -1):
+        print_data(InfoDb[idx])
+
+#for_loop3()
+
+###############################################################################
+# Could you create new or add to dictionary data set? Could you do it with input?
+def print_data2(d_rec):
+    print(d_rec["FirstName"], d_rec["LastName"])  # using comma puts space between values
+    print("\t", "School Name:", d_rec["SchoolName"]) # \t is a tab indent
+    print("\t", "Grade:", d_rec["Grade"])
+    print()
+
+# Keys for new DB
+NewInfoDbKeys = ["FirstName", "LastName", "SchoolName", "Grade"]
+
+NewInfoDb = []
+
+while (1):
+    print()
+    TempDict = {}  # temp dictionary 
+    for Keys in NewInfoDbKeys:
+        print("Please type " + Keys)
+        userInput = input()
+        TempDict[Keys] = userInput
+    NewInfoDb.append(TempDict)  # add a dictionary  
+    
+    # ask user to continue
+    print("Do you want to continue?")
+    userInput = input()
+    if userInput != 'yes':
+        print("Ok we will stop\n")
+        break
+    else:
+        print("\nPut next info")
+
+def for_loop4():
+    for idx in range(len(NewInfoDb)):
+        print_data2(NewInfoDb[idx])
+for_loop4()
+
+###############################################################################
+# Make a quiz that stores in a List of Dictionaries.
+# See 2022-08-28-quiz_3.py    
