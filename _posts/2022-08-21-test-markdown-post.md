@@ -15,4 +15,4 @@ permalink: /post1/
 
 ## Images example
 
-![]({{site.baseurl}}/images/Delsurone.PNG)
+![]({{site.baseurl}}/images/scott_bike.PNG)
