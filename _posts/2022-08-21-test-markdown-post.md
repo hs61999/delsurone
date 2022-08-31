@@ -3,6 +3,7 @@ toc: true
 layout: post
 description: my posts are here
 title: Posts
+categories: [MD note]
 ---
 # Delsurone Posts
 
