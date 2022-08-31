@@ -52,10 +52,10 @@
 
   
       ,"page3": {
-          "title": "Notes",
-          "content": "My note 1 . My note 2 .",
-          "url": "https://hs61999.github.io/delsurone/notes/",
-          "relUrl": "/notes/",
+          "title": "Sticky Notes",
+          "content": "My sticky note 1 . My sticky note 2 .",
+          "url": "https://hs61999.github.io/delsurone/sticky_notes/",
+          "relUrl": "/sticky_notes/",
           "date": ""
       }
       
