@@ -24,10 +24,10 @@
   
     
         ,"post2": {
-            "title": "Posts",
+            "title": "Post1",
             "content": "Delsurone Posts . Links . Personal pages | Markdown pages | Jupyter notebook pages | . Images . .",
-            "url": "https://hs61999.github.io/delsurone/md%20note/2022/08/21/test-markdown-post.html",
-            "relUrl": "/md%20note/2022/08/21/test-markdown-post.html",
+            "url": "https://hs61999.github.io/delsurone/post1/",
+            "relUrl": "/post1/",
             "date": " • Aug 21, 2022"
         }
         
