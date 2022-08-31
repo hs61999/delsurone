@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Notes
-permalink: /notes/
+title: Sticky Notes
+permalink: /sticky_notes/
 ---
 
-My note 1
+My sticky note 1
 
-My note 2
+My sticky note 2
