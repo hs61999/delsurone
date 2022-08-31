@@ -22,12 +22,24 @@
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/delsurone/assets/css/style.css?v=">
-    <script src="/delsurone/assets/js/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/delsurone/assets/js/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/delsurone/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#353535">
+<meta name="msapplication-navbutton-color" content="#353535">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
 
 <!-- Setup Google Analytics -->
 
@@ -40,22 +52,26 @@
 
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="">View On GitHub</a></li>
+            
+          </ul>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1 class="header">Delsurone</h1>
-        <p class="header">An easy to use blogging platform with support for Jupyter Notebooks.</p>
-
-        <ul>
-          
-          <li><a class="buttons github" href="">View On GitHub</a></li>
-        </ul>
-
-        
-
-        
-      </header>
 
       <section>
+        <div id="title">
+          <h1>Delsurone</h1>
+          <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href=""></a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
         <!-- adapted from https://github.com/pmarsceill/just-the-docs -->
 <script type="text/javascript" src="/delsurone/assets/js/search.js"></script>
 <script type="text/javascript" src="/delsurone/assets/js/vendor/lunr.min.js"></script>
@@ -68,12 +84,9 @@
     <div class="js-search-results search-results-wrap"></div>
 </div>
 
+
       </section>
 
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
 </html>
