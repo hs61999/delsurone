@@ -6,6 +6,7 @@ title: Post1
 categories: [MD note]
 permalink: /post1/
 ---
+
 # Delsurone Posts example
 
 ## Link example
