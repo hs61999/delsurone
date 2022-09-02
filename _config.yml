@@ -38,6 +38,7 @@ baseurl: "/delsurone" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
+  skin: skins/dark
   social_links:
     twitter: fastdotai
     github: fastai
