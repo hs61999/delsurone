@@ -36,9 +36,7 @@
 
   
   
-
-  
-      ,"page1": {
+      ,"page0": {
           "title": "About Me",
           "content": "This website is powered by Delsurone 1. . a blogger who is learning fastpages. &#8617; . |",
           "url": "https://hs61999.github.io/delsurone/about/",
@@ -49,9 +47,7 @@
   
 
   
-
-  
-      ,"page3": {
+      ,"page1": {
           "title": "Sticky Notes",
           "content": "My sticky note 1 . My sticky note 2 .",
           "url": "https://hs61999.github.io/delsurone/sticky_notes/",
@@ -62,6 +58,9 @@
   
 
   
+
+  
+
   
 
   
@@ -69,6 +68,7 @@
   
   
 
+  
   
 
   
