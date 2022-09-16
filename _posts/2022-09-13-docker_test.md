@@ -11,3 +11,4 @@ permalink: /post1/
 
 ## Link example
 - [Docker local address](http://localhost:4000/delsurone/)
+- Docker local address: http://0.0.0.0:4000/delsurone/

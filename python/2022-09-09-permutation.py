@@ -3,16 +3,22 @@ import time
 import threading
 from itertools import combinations
 from itertools import permutations
+import requests
 
 def load_dictionary():
-    # load word list
-    path = os.getcwd() + "/python/words.txt"
+    # load word list from local
+    #path = os.getcwd() + "/python/words.txt"
     #path = "words.txt"
-    word_file = open(path, "r")
-    all_words = word_file.read()
-    word_file.close()
-
-    word_list = all_words.split('\n')    
+    #word_file = open(path, "r")
+    #all_words = word_file.read()
+    #word_file.close()
+    
+    # load word list from webpage
+    response  = requests.get("https://raw.githubusercontent.com/dwyl/english-words/master/words.txt")
+    all_words = response.text
+    
+    word_list = all_words.split('\n')
+    #print(len(word_list))    
     # make lower case
     for i in range(0, len(word_list)):
         word_list[i] = word_list[i].lower()
