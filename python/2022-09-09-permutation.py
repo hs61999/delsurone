@@ -107,7 +107,7 @@ def word_connect(string, start_num, end_num):
 
 if __name__ == "__main__":
     
-    string = "dewsay"    
+    string = "urcedv"    
     
     start_time = time.perf_counter()
     word_connect(string, 3, len(string))
